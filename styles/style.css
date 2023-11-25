@@ -1,0 +1,20 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;;
+}
+
+body{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
